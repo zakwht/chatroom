@@ -1,0 +1,76 @@
+body {
+  background-image: url("http://samwarrenphotography.com/wp-content/uploads/sites/12/2014/11/DSC1076.jpg");
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+  padding-top: 40px;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+main {
+  background-color: #434343;
+  margin: 20px auto;
+  max-width: 450px;
+  padding: 20px;
+  border-radius: 8px;
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+ul {
+  background-color: #434343;
+  color: #f0f0f0;
+  font-family: 'courier', Arial, sans-serif;
+  margin: 10px auto;
+  list-style: none;
+  padding-right: 10px auto;
+  overflow-x:hidden;
+  overflow-y:visible;
+  height:230px;
+}
+
+li {
+  padding-right: 20px auto;
+  padding-left: -60px auto;
+}
+
+li:nth-child(odd){
+  color: #A4A4A4;
+}
+
+ol {
+  background-color: #434343;
+  color: #f0f0f0;
+  font-family: 'courier', Arial, sans-serif;
+  margin: 00px auto;
+  list-style: none;
+}
+
+h1 {
+  margin: 0px auto;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+form {
+  background-color: #434343;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.message {
+  opacity: 1;
+  font-family: 'courier', Arial;
+}
+
+.initials {
+  opacity: 1;
+  font-family: 'courier', Arial;
+}
+
+.history {
+  height: 200px;
+}

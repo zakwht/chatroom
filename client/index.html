@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<h1>Welcome!</h1>
+<title>Chat Room</title>
+
+<main>
+  <div style="width:420px;height:250px;line-height:1.6em;overflow:scroll;padding:0px;">
+    <ul id="history">
+      <!--
+      <li>These pretzels are making me thirsty!</li>
+      <li>Right on</li>
+      -->
+    </ul>
+  </div>
+  <ol>
+    <form>
+      <input id="initials" class="initials" maxlength="3" placeholder="Initials">
+      <input id="message" class="message" placeholder="Message">
+      <button>Send</button>
+    </form>
+  </ol>
+</main>
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
