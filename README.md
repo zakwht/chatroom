@@ -6,5 +6,5 @@ The server can be launched using the command 'node server.js' in the system's co
 # Acknowledgments
 * __Built in__ [Lighthouse Labs](https://github.com/lighthouse-labs)' workshop, 2018-01-31
 * __Designed by__ _Zak White_, 2018-02-01
-* __Art by__ _[Sam Warren](samwarrenphotography.com)_ 2015-01-12
+* __Art by__ _[Sam Warren](samwarrenphotography.com)_, 2015-01-12
 
